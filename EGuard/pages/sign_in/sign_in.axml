@@ -1,0 +1,50 @@
+<view>
+  <view class="datebar">
+    <view class="dateitem">2019年4月2日  11:01</view>
+    <view class="builditem">中十</view> 
+  </view>
+  <view class='tipbar'>当前未到寝名单（{{unsign_num}}人）</view>
+  <!-- 查询结果，分页显示 -->
+  <view class="resultForm">
+    <view class = 'tableTitle'>
+      <view class="titleItem long">学号</view>
+      <view class="titleItem">姓名</view>
+      <view class="titleItem">寝室号</view>
+      <view class="titleItem long">手机号</view>
+    </view>
+    <view class="tableData">
+      <view class="dataItem"  onTap="userinfo">
+          <view class="data long">1550360026</view>
+          <view class="data">陈玉婷</view>
+          <view class="data">612</view>
+          <view class="data long">15172351015</view>
+      </view>
+      <view class="dataItem">
+          <view class="data long">1550360027</view>
+          <view class="data">黄思梦</view>
+          <view class="data">612</view>
+          <view class="data long">15172468903</view>
+      </view>
+      <view class="dataItem">
+          <view class="data long">1550360033</view>
+          <view class="data">李园庭</view>
+          <view class="data">612</view>
+          <view class="data long">15172496781</view>
+      </view>
+      <view class="dataItem">
+          <view class="data long">1550360034</view>
+          <view class="data">阮雨晴</view>
+          <view class="data">612</view>
+          <view class="data long">13667125011</view>
+      </view>
+
+    </view>
+  </view>
+  <view class="footbtnbar">
+      <view class="footBtn">首页</view>
+      <view class="footBtn">上一页</view>
+      <view class="footBtn">下一页</view>
+      <view class="footBtn">转到</view>
+      <view class="footBtn">{{page_num}}页</view>
+  </view>
+</view>

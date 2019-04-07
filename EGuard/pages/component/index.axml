@@ -1,0 +1,31 @@
+<view>
+  <!-- 轮播图 -->
+  <view>
+    <swiper
+      indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}"
+      interval="{{interval}}">
+      <block a:for="{{swiper_bg_images}}">
+        <swiper-item>
+          <image src="{{item.url}}" mode="{{scaleToFill}}" class="swiper-item" />
+        </swiper-item>
+      </block> 
+    </swiper>
+    <image src="{{logo_white}}" mode="{{scaleToFill}}" class="shuffling_icon"/> 
+  </view>
+  <!-- 管理员卡片 -->
+  <view class="mgn_card">
+    <view class="mgn_info">
+      <view class="mgn_id">No.{{mgn_id}}</view>
+      <view class="mgn_dormi_name">
+        <view class="mgn_name">{{mgn_name}}</view>
+        <view class="dormitory_name">{{dormitory_name}}</view>
+      </view>
+    </view>
+    <view>
+      <image src="{{user_icon}}" mode="{{scaleToFill}}" class='mgn_icon' />
+    </view>
+  </view>
+  <!-- 查寝签到按钮 -->
+  <image src="{{sign_in_btn}}" mode="{{scaleToFill}}" class="sign_in_btn" onTap="navigateTo"/>
+</view>

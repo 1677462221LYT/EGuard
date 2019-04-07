@@ -1,0 +1,32 @@
+{
+    "name": "EGuard_koa",
+    "version": "1.0.0",
+    "description": "My EGuard",
+    "main": "EGuard.js",
+    "scripts": {
+        "start": "nodemon EGuard.js"
+    },
+    "keywords": [
+        "EGuard"
+    ],
+    "author": "Li Yuanting",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/1677462221LYT/EGuard.git"
+    },
+    "dependencies": {
+        "koa": "2.0.0",
+        "koa-bodyparser": "3.2.0",
+        "koa-ejs": "^4.2.0",
+        "koa-json": "^2.0.2",
+        "koa-router": "7.0.0",
+        "mysql": "2.11.1",
+        "nunjucks": "2.4.2",
+        "request": "2.88.0",
+        "sequelize": "3.24.1"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.10"
+    }
+}

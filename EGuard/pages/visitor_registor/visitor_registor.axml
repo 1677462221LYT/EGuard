@@ -1,0 +1,37 @@
+<view>
+  <view class="recordContent">
+    <image src="{{registerImg}}" mode="{{scaleToFill}}" class="recordImg"/>
+  </view>
+  <!-- 登记表单 -->
+  <view class="tableArea">
+    <form onSubmit="formSubmit" onReset="formReset">
+      <view class="section">
+        <view class="section__title">访客姓名</view>
+        <input name="input" placeholder="" />
+      </view>
+      <view class="section section_gap">
+        <view class="section__title">访客性别</view>
+        <radio-group name="radio-group">
+          <label><radio value="男"/>男</label>
+          <label><radio value="女"/>女</label>
+        </radio-group>
+      </view>
+      <view class="section">
+        <view class="section__title">联系电话</view>
+        <input name="input" placeholder="" />
+      </view>
+      <view class="section">
+        <view class="section__title">访客身份证号</view>
+        <input name="input" placeholder="" />
+      </view>
+      <view class="section">
+        备注：
+        <textarea onBlur="bindTextAreaBlur" auto-height placeholder="请在此输入来访事项等备注信息..." />
+      </view>
+       <view class="btn-area">
+        <button formType="submit" type="primary" class="btn1" hover-class="btn1_hover">确认提交</button>
+        <button formType="reset" type="warn" class="btn2" hover-class="btn2_hover">重置表单</button>
+      </view>
+    </form>
+  </view>
+</view>

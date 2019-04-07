@@ -1,0 +1,4 @@
+view{
+  text-align: center;
+  color: teal;
+}

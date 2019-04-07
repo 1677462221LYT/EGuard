@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/component/index",
+    "pages/repair_servise_register/repair_servise_register",
+    "pages/sign_in/sign_in",
+    "pages/user_info/user_info",
+    "pages/visitor_registor/visitor_registor"
+
+  ],
+  "window": {
+    "enableWK": "YES",
+    "enableDSL": true,
+    "defaultTitle": "EGuard",
+    "titleBarColor": "#009933",
+    "pullRefresh": false,
+    "allowsBounceVertical": true
+  },
+  "tabBar": {
+    "textColor": "#404040",
+    "selectedColor": "#009933",
+    "backgroundColor": "#F5F5F9",
+    "items": [
+      {
+        "pagePath": "pages/component/index",
+        "icon": "images/index_grey.png",
+        "activeIcon": "images/index_green.png",
+        "name": "首页"
+      },
+      {
+        "pagePath": "pages/visitor_registor/visitor_registor",
+        "icon": "images/visitor_registration_grey.png",
+        "activeIcon": "images/visitor_registration_green.png",
+        "name": "来访登记"
+      },
+      {
+        "pagePath": "pages/repair_servise_register/repair_servise_register",
+        "icon": "images/repair_servise_register_grey.png",
+        "activeIcon": "images/repair_servise_register_green.png",
+        "name": "报修登记"
+      }
+    ]
+  },
+  "debug": true
+}

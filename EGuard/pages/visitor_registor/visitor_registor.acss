@@ -1,0 +1,85 @@
+page{
+  padding: 10rpx;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.recordContent{
+  position: relative;
+  height: 50px;
+}
+
+.recordImg{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: url('../../images/register.png');
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section{
+  height: 36px;
+  line-height: 36px;
+  margin: 3px;
+}
+
+.section__title{
+  float: left;
+}
+
+input{
+  background: ;
+  border: 1px solid rgba(0,153,51,.4); 
+  border-radius: 3px;
+  margin-left: 16rpx;
+  line-height: 35px;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 4px;
+}
+
+radio{
+    border: 1px solid rgba(0,153,51,.4); 
+}
+
+textarea{
+  font-size: 14px;
+  border: 1px solid rgba(0,153,51,.4); 
+}
+
+label{
+  margin-left: 20rpx;
+}
+
+.btn-area{
+  position: fixed;
+  bottom: 30px;
+  width: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn1{
+  font-size: 14px;
+  background: #009933;
+  border: 1px solid #009933; 
+
+}
+.btn1_hover{
+  background: #f7f7f7;
+  color: #009933;
+}
+
+
+.btn2{
+  color: #b0b4af;
+  border:1px solid #b0b4af;
+  background: rgba(255,255,255,0);
+  margin-top: 6px;
+  font-size: 14px;
+}
+.btn2_hover{
+  background: #b0b4af;
+  color: #f7f7f7;
+}

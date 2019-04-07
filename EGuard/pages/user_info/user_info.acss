@@ -1,0 +1,86 @@
+page{
+  background: #f7f7f7;
+  font-size: 14px;
+}
+
+.top_content{
+  /* background: blanchedalmond; */
+  height: 120px;
+  position: relative;
+}
+
+.userImg{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 15px;
+  float: left;
+}
+
+.info_card{
+  /* background: pink; */
+  padding-top: 45px;
+}
+
+.sexIcon{
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10px;
+}
+
+.name{
+  font-size: 20px;
+  /* background: blanchedalmond; */
+}
+
+.dormi{
+  /* background: blue; */
+  width: 100px;
+  position: absolute;
+  left: 120px;
+  bottom: 20px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.build{
+  float: left;
+}
+
+.room{
+  float: right;
+}
+
+
+
+.info_content{
+  /* background: pink; */
+  height: 100%;
+  margin-top:80px;
+}
+
+
+.item{
+  height: 30px;
+  background: rgba(0, 153, 51, .1);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.left{
+  float: left;
+  width: 40%;
+  /* left: 5%; */
+  /* background: yellow; */
+  padding-left: 5%;
+}
+
+.right{
+  width:55%;
+  /* background: purple; */
+  float: right;
+}
+
+

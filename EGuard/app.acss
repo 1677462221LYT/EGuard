@@ -1,0 +1,39 @@
+page {
+  flex: 1;
+  display: flex;
+  background: #f7f7f7;
+  border: 1px solid rgba(0,0,0,0);
+  box-sizing: border-box;
+}
+
+view{
+  flex: 1;
+}
+
+.form-row-label {
+  width: 180rpx;
+  font-size: 34rpx;
+  margin-right: 10rpx;
+  text-align: left;
+  color: #000;
+}
+
+.form-row-content {
+  flex: 1;
+  font-size: 34rpx;
+}
+
+.form-line {
+  height: 1px;
+  background-color: #ddd;
+  margin-left: 30rpx;
+}
+
+.input {
+  color: #000;
+  font-size: 34rpx;
+  width: 100%;
+  padding: 4rpx 0;
+  border: 0;
+  line-height: 1;
+}

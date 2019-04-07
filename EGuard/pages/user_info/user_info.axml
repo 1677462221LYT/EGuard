@@ -1,0 +1,44 @@
+<view>
+  <view class="top_content">
+    <image src="{{userImg}}" mode="{{scaleToFill}}" class="userImg"/>
+    <view class="info_card">
+      <image src="{{sexIcon}}" mode="{{scaleToFill}}" class="sexIcon"/>
+      <view class="name">李园庭</view>
+      <view class="dormi">
+        <view class="build">西一</view>
+        <view class="room">612</view>
+    </view>
+  </view>
+
+  <view class="info_content">
+    <view class='item'>
+      <view class="left">学号</view>
+      <view class="right">1550360033</view>
+    </view>
+
+    <view class='item'>
+      <view class="left">班级</view>
+      <view class="right">15级物联网工程1班</view>
+    </view>
+
+    <view class='item'>
+      <view class="left">联系电话</view>
+      <view class="right">15172496781</view>
+    </view>
+    
+    <view class='item'>
+      <view class="left">辅导员</view>
+      <view class="right">熊军平</view>
+    </view>
+
+    <view class='item'>
+      <view class="left">辅导员电话</view>
+      <view class="right">15172496781</view>
+    </view>
+
+    <view class='item'>
+      <view class="left">上次离寝时间</view>
+      <view class="right">2019年3月2日 08:00</view>
+    </view>
+  </view>
+</view>

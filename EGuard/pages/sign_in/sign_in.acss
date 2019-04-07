@@ -1,0 +1,94 @@
+page{
+  top: 1rpx;
+  border-radius: 4rpx;
+  background: #cce7d3;
+  color: #696969;
+}
+
+/* datebar | start */
+.datebar{
+  /* background: pink; */
+  height: 10px;
+  margin: 20rpx 20rpx 0 20rpx;
+  padding: 20rpx;
+  font-size: 10px;
+}
+
+.dateitem{
+  float: left;
+}
+
+.builditem{
+  float: right;
+}
+/* datebar | end/ */
+
+/* tipbar | start */
+.tipbar{
+  /* background: burlywood; */
+  margin: 0 20rpx; 
+  padding: 15rpx;
+  font-size: 14px;
+  border-bottom: 1rpx solid #696969;
+}
+/* tipbar | end */
+
+
+.resultForm{
+  background: #d8fee2;
+  /* height: 80%; */
+  margin: 8rpx 20rpx;
+}
+
+.tableTitle{
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  border-bottom: 1px solid;
+}
+
+.titleItem{
+  display: inline-block;
+  width: 25%;
+}
+
+.tableData{
+  /* background: pink; */
+  font-size: 12px;
+  text-align: center;
+  margin: 5rpx 0;
+}
+
+.dataItem{
+  height: 16px;
+  line-height: 16px;
+  border-bottom: 1px solid #b1b2b4;
+}
+
+.dataItem:nth-child(odd){
+  background: #bdfec5;
+}
+
+.data{
+  width: 25%;
+  display: inline-block;
+}
+
+
+
+.footbtnbar{
+  /* background: pink; */
+  height: 50rpx;
+  width: 100%;
+  bottom: 0;
+  margin: 8rpx;
+  font-size: 11px;
+  line-height: 50rpx;
+  padding-left: 40%;
+}
+
+.footBtn{
+  display: inline-block;
+  margin-right: 5px;
+}
