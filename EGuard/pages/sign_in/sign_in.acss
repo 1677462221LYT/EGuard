@@ -76,19 +76,29 @@ page{
 }
 
 
-
 .footbtnbar{
   /* background: pink; */
-  height: 50rpx;
-  width: 100%;
-  bottom: 0;
-  margin: 8rpx;
-  font-size: 11px;
-  line-height: 50rpx;
-  padding-left: 40%;
+  margin-top: 10px;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 20px;
+  color: #009933;
 }
-
 .footBtn{
   display: inline-block;
   margin-right: 5px;
+  height: 20px;
+  background: rgba(0,0,0,0);
+  border: 1px solid #696969;
+  font-size: 12px;
+  line-height: 20px;
+}
+.curpage_input{
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  max-width: 15px;
+  font-size: 12px;
+  margin: 0 5px;
 }

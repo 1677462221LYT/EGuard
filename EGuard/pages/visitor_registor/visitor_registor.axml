@@ -7,26 +7,26 @@
     <form onSubmit="formSubmit" onReset="formReset">
       <view class="section">
         <view class="section__title">访客姓名</view>
-        <input name="input" placeholder="" />
+        <input name="name" placeholder="" value="{{v_name}}"/>
       </view>
       <view class="section section_gap">
         <view class="section__title">访客性别</view>
-        <radio-group name="radio-group">
-          <label><radio value="男"/>男</label>
-          <label><radio value="女"/>女</label>
+        <radio-group name="sex">
+          <label><radio value="1"/>男</label>
+          <label><radio value="0"/>女</label>
         </radio-group>
       </view>
       <view class="section">
         <view class="section__title">联系电话</view>
-        <input name="input" placeholder="" />
+        <input name="mobile" placeholder="" value="{{v_tel}}"/>
       </view>
       <view class="section">
         <view class="section__title">访客身份证号</view>
-        <input name="input" placeholder="" />
+        <input name="id_num" placeholder="" value="{{v_idcard}}"/>
       </view>
       <view class="section">
         备注：
-        <textarea onBlur="bindTextAreaBlur" auto-height placeholder="请在此输入来访事项等备注信息..." />
+        <textarea name="note" onBlur="bindTextAreaBlur" auto-height placeholder="请在此输入来访事项等备注信息..." value="{{v_note}}"/>
       </view>
        <view class="btn-area">
         <button formType="submit" type="primary" class="btn1" hover-class="btn1_hover">确认提交</button>

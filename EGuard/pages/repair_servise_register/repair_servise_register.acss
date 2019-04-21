@@ -2,3 +2,15 @@ view{
   text-align: center;
   color: teal;
 }
+
+.scan_btn{
+  background: #009933;
+  border:1px solid #009933;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  bottom: 50px;
+  color: #f7f7f7;
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -1,0 +1,1 @@
+<web-view id="scan" src="https://oapi.dingtalk.com/connect/qrconnect?appid=dingoazfxopqlssh09r0to&response_type=code&scope=snsapi_login&state=1&redirect_uri=http://127.0.0.1:3000/hello?1"></web-view>

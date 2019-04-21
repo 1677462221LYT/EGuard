@@ -20,10 +20,11 @@ Page({
     interval: 5000,
 
     // 管理员卡片
-    user_icon:'/images/user_icon.jpg',
-    mgn_id:'1550360033',
-    mgn_name:'李园庭',
-    dormitory_name:'中十',
+    // user_icon:'/images/user_icon.jpg',
+    user_icon:'',
+    mgn_id:'',
+    mgn_name:'',
+    dormitory_name:'',
 
     // 查寝签到按钮
     sign_in_btn:'/images/sign_in_green.png',
@@ -42,10 +43,9 @@ Page({
     // 页面加载
     // dd.showLoading();
     // console.info(`Page onLoad with query: ${JSON.stringify(query)}`);
+    // dd.ui.pullToRefresh.disable();
     dd.getAuthCode({
             success:(res)=>{
-                // dd.alert({content: 'AuthCode:'+res.authCode});
-                console.log('authcode:'+res.authCode);
                 // 向后台发送authcode请求进行身份验证
                 dd.httpRequest({
                     url: url,
@@ -56,11 +56,17 @@ Page({
                     dataType: 'json',
                     success: (res) => {
                         console.log('success----',res);
-                        let userId = res.data[0].userid;
-                        let userName = res.data[0].name;
+                        app.userId = res.data.userid;
+                        app.union_id = res.data.union_id;
+                        let userName = res.data.name;
+                        let user_icon = res.data.avatar;
+                        app.dormitory_id = res.data.department_id;
+                        app.dormitory_name = res.data.dormi_name;
                         this.setData({
-                            mgn_id : userId,
+                            mgn_id : app.userId,
                             mgn_name : userName,
+                            user_icon : user_icon,
+                            dormitory_name : app.dormitory_name
                         })
                     },
                     fail: (res) => {
@@ -112,7 +118,6 @@ Page({
   },
 
   navigateTo() {
-    // alert('aaa');
-    dd.navigateTo({ url: '../sign_in/sign_in' })
+    dd.navigateTo({ url: '../sign_in/sign_in?department_id='+app.dormitory_id+'&department_name='+app.dormitory_name});
   },
 });

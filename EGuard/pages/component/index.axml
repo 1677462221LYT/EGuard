@@ -16,7 +16,7 @@
   <!-- 管理员卡片 -->
   <view class="mgn_card">
     <view class="mgn_info">
-      <view class="mgn_id">No.{{mgn_id}}</view>
+      <view class="mgn_id">管理员 No. {{mgn_id}}</view>
       <view class="mgn_dormi_name">
         <view class="mgn_name">{{mgn_name}}</view>
         <view class="dormitory_name">{{dormitory_name}}</view>

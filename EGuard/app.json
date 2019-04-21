@@ -1,11 +1,13 @@
 {
   "pages": [
+
     "pages/component/index",
     "pages/repair_servise_register/repair_servise_register",
+    "pages/dingtalk_scan/dingtalk_scan",
     "pages/sign_in/sign_in",
+
     "pages/user_info/user_info",
     "pages/visitor_registor/visitor_registor"
-
   ],
   "window": {
     "enableWK": "YES",

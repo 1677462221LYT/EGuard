@@ -1,0 +1,23 @@
+/* .h1{
+  color: #009933;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 60px;
+  margin: 10px;
+}
+#login_container{
+  background: pink;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50px;
+} */
+#scan{
+  width: 500px;
+  height: 500px;
+}

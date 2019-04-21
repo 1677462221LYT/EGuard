@@ -8,4 +8,8 @@ Page({
       },
     });
   },
+  toScanPage() {
+    // alert('aaa');
+    dd.navigateTo({ url: '../dingtalk_scan/dingtalk_scan' })
+  },
 });

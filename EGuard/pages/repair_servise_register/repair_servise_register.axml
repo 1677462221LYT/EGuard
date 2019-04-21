@@ -1,4 +1,7 @@
 <view>
   <text>功能暂未开放...</text>
   <text>敬请期待</text>
+  <button type="default" class="scan_btn" hover-class="scan_btn_hover" onTap="toScanPage">扫码登录界面</button>
+
+    
 </view>
